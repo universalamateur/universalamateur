@@ -10,10 +10,11 @@ Many hours were spend loading [Mafia the game](https://www.c64-wiki.com/wiki/Maf
 With my [Abitur](https://en.wikipedia.org/wiki/Abitur) in 1998 and [Zivildienst](https://en.wikipedia.org/wiki/Zivildienst), as orderly for the elderly, done, I studied [electrical engineering](https://www.elektrotechnik.rwth-aachen.de/) at the RWTH-Aachen.
 Earning my livelihood with different side jobs (Life guard at the local pool, flipping burgers in the nightshiftat MC, building and repaiing PCs), I started a scientific assistant position as system administrator for a [mechanical engineering institute](https://www.ikt-aachen-gmbh.de/about-us).
 
+Since 2010 Falko is leading hybrid multi-national teams in the IT sector. His passions is leading teams with customer centric drive and foster plus advance the teammebers to their best selfs.
 
 Expat in Greece for 3 years
 
-At the moment I am a [T-shaped Professional](https://en.wikipedia.org/wiki/T-shaped_skills), a universla dilletant or universalamateur,
+At the moment I am a , a universla dilletant or universalamateur,
 My horizontal line, my abse, domain knowledge is Information Technology
 I am passioned about Documentation. Writing, editing and using it. Ducumentation is the first pillar of  Success, also Customer Success.
 Write it, so that your future self understands it without any context.
@@ -92,8 +93,7 @@ Brevity does not equate to being rude, short, or perturbed.
 Please do not take offense to periods of silence. I prefer long, uninterrupted windows of time for deep work. I disable all notifications on my Mac and everything but iMessage on my phone. This allows me to focus deeply on one task at a time, which is a more efficient way of working than attempting to multitask. In return, I will devote my full attention to your request and respond thoughtfully, with context and passion.
 Unless specifically mentioned, I don’t expect immediate responses from anyone. I respect others’ time and want you to have the space for a thoughtful response.
 
-
-# 3 things system and Getting things Done
+## 3 things system and Getting things Done
 
 The goal is to achieve 3 meaningful outcomes every day, week, month, and year. Small outcomes add up to meaningful and long-term results
 Productivity is about doing the right things at the right time. Choosing 3 tasks forces prioritization and helps avoid context switching
