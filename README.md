@@ -1,7 +1,5 @@
 # UniversalAmateur Profile Info
 
-Examples: https://cynthiang.ca/about-me/
-
 ## Short Bio
 
 In 1979 not only [Pink Floyd released "The Wall"](https://en.wikipedia.org/wiki/The_Wall) and [Sony the Walkman](https://en.wikipedia.org/wiki/Walkman), but my parents, a math/informatics teacher married to a kindergarten teacher, received me on the second to last day of May.  
