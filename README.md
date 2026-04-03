@@ -1,6 +1,6 @@
 # Falko Sieverding
 
-**AI Solutions Architect** | Duesseldorf, Germany
+**AI Solutions Architect** | Düsseldorf, Germany
 
 In 1979 not only [Pink Floyd released "The Wall"](https://en.wikipedia.org/wiki/The_Wall) and [Sony the Walkman](https://en.wikipedia.org/wiki/Walkman), but my parents, a math/informatics teacher married to a kindergarten teacher, received me on the second to last day of May.
 Born and raised in the [Lower Rhine region of Germany](https://www.geonames.org/12076814/niederrhein.html), a bicycle ride distant from the [green border with the Netherlands](https://en.wikipedia.org/wiki/Germany%E2%80%93Netherlands_border), I found early in life my passion for [water sports](https://www.delphin-geldern.com/) and [board/roleplay games](https://boardgamegeek.com/user/zwobot).
