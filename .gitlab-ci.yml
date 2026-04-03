@@ -1,0 +1,53 @@
+stages:
+  - sync
+
+sync-gitlab:
+  stage: sync
+  image: alpine:latest
+  before_script:
+    - apk add --no-cache curl jq coreutils
+  script:
+    - |
+      CONTENT=$(base64 -w 0 README.md)
+      jq -n \
+        --arg content "$CONTENT" \
+        --arg msg "Sync README from UniversalAmateur golden source" \
+        '{branch: "main", content: $content, encoding: "base64", commit_message: $msg}' | \
+      curl --fail --silent \
+        --header "PRIVATE-TOKEN: ${GITLAB_SYNC_TOKEN}" \
+        --header "Content-Type: application/json" \
+        --request PUT \
+        "https://gitlab.com/api/v4/projects/fsieverding%2Ffsieverding/repository/files/README.md" \
+        --data @-
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+sync-github:
+  stage: sync
+  image: alpine:latest
+  before_script:
+    - apk add --no-cache curl jq coreutils
+  script:
+    - |
+      # Get current file SHA (required by GitHub API for updates)
+      SHA=$(curl --fail --silent \
+        --header "Authorization: Bearer ${GITHUB_SYNC_TOKEN}" \
+        --header "Accept: application/vnd.github.v3+json" \
+        "https://api.github.com/repos/universalamateur/universalamateur/contents/README.md" \
+        | jq -r '.sha')
+
+      CONTENT=$(base64 -w 0 README.md)
+      jq -n \
+        --arg content "$CONTENT" \
+        --arg sha "$SHA" \
+        --arg msg "Sync README from UniversalAmateur golden source" \
+        '{message: $msg, content: $content, sha: $sha, branch: "main"}' | \
+      curl --fail --silent \
+        --header "Authorization: Bearer ${GITHUB_SYNC_TOKEN}" \
+        --header "Accept: application/vnd.github.v3+json" \
+        --header "Content-Type: application/json" \
+        --request PUT \
+        "https://api.github.com/repos/universalamateur/universalamateur/contents/README.md" \
+        --data @-
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
