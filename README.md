@@ -1,5 +1,9 @@
 # Falko Sieverding
 
+![Project logo](./logo.png)
+
+[Lead repository on GitHub](https://github.com/universalamateur/universalamateur)
+
 I’m an applied AI engineer at OpenAI. I work with large enterprises and digital-native companies, drawing on the full range of OpenAI products. Two questions interest me in particular. How could a Company OS help teams share what they know and coordinate their day-to-day work? And how could a software factory use AI to take a change from issue to release, with engineers deciding what ships?
 
 I joined in July 2026 after nearly four years at GitLab. I started there in customer success and left as a Staff AI Solutions Architect, the specialist for the Duo Agent Platform in the sales organisation.
